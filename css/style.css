@@ -1,0 +1,138 @@
+/* codice colori 
+backgound pulsante black #23272a
+background bianco #fff
+background grigi #e5e5e5
+background footer #23272a
+colore hr del footer #4a5882
+colore testo del footer #7289da */
+
+/* Da mettere sempre  */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl {
+        float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* Font comune a tutti */
+
+
+
+/* Comune a tutti */
+
+[class^="container-"] {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+
+/* inizia codice css per header */
+
+header {
+    background: url() center center;
+    background-color: blueviolet;
+    height: 700px;
+    background-size: cover;
+}
+
+/* codice per la nav */
+
+.topbar {
+    width: 100%;
+    background-color: white;
+    height: 100px; 
+    line-height: 100px;
+    padding-right: 20px;
+
+}
+
+nav.topbar .logo {
+    width: 10%;
+    height: 100%;
+    padding-left: 20px;
+}
+
+nav.topbar .menu {
+    width: 50%;
+    height: 100%;
+}
+
+nav.topbar .menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav.topbar .login li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.image-1 {
+    width: 50%;
+}
+
+.text-1 {
+    width: 50%;
+}
+
+img {
+    width: 70%;
+}
+
+
+.menu .login {
+    text-align: left;
+    font-weight: 700;
+}
+
+.content-1 {
+    background-color: green;
+    height: 700px;
+}
+
+.content-2 {
+    background-color: red;
+    height: 300px;
+}
+
+.content-3 {
+    background-color: pink;
+    height: 500px;
+}
+
+.content-4 {
+    background-color: blue;
+    height: 1400px;
+}
+
+.content-5 {
+    background-color: teal;
+    height: 200px;
+}
+
+footer {
+    background-color: yellow;
+    height: 700px;
+}
