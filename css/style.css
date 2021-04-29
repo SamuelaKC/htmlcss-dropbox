@@ -1,10 +1,19 @@
 /* codice colori 
-backgound pulsante black #23272a
-background bianco #fff
-background grigi #e5e5e5
-background footer #23272a
-colore hr del footer #4a5882
-colore testo del footer #7289da */
+color button + check #0061ff 
+color background header + footer  #b4d0e7 
+color font month #99a4ad
+color link #3481ff
+font color footer #61082b
+background desigual 1 sx alto #a2d39b
+background florisa 1 sx basso #0093ce
+background asu 2 sx alto #61082b
+background toopps 2 sx basso #ff1c1c
+background centrale clearchannel #f5f5f5
+background hearst 1 dx alto #b4d0e7
+background clearchannel 1 dx basso #ffd830 + border color 3px (circa) ffeb98
+background world bycicle 2 dx alto #d5001f
+background lonely planet 2 dx basso #0d2481
+*/
 
 /* Da mettere sempre  */
 
@@ -30,7 +39,10 @@ colore testo del footer #7289da */
 }
 
 /* Font comune a tutti */
-
+h1 {
+    font-size: 100px;
+    font-weight: 700;
+}
 
 
 /* Comune a tutti */
@@ -48,9 +60,13 @@ colore testo del footer #7289da */
 
 header {
     background: url() center center;
-    background-color: blueviolet;
-    height: 700px;
+    background-color: #b4d0e7;
+    /* height: 700px; */
     background-size: cover;
+}
+
+.header {
+    padding: 100px 0 0 100px; /* top | right | bottom | left */
 }
 
 /* codice per la nav */
@@ -90,15 +106,15 @@ li {
 }
 
 .image-1 {
-    width: 50%;
+    width: 60%;
 }
 
 .text-1 {
-    width: 50%;
+    width: 40%;
 }
 
 img {
-    width: 70%;
+    width: 100%;
 }
 
 
@@ -106,10 +122,21 @@ img {
     text-align: left;
     font-weight: 700;
 }
-
+/* da cancellare appena finito completa sezione */
 .content-1 {
     background-color: green;
     height: 700px;
+}
+
+[class^="columns-"] {
+    background-color: tomato;
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+}
+
+table, tr, td {
+    border: 3px solid black;
 }
 
 .content-2 {
