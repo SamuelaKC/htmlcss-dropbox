@@ -13,6 +13,11 @@ background hearst 1 dx alto #b4d0e7
 background clearchannel 1 dx basso #ffd830 + border color 3px (circa) ffeb98
 background world bycicle 2 dx alto #d5001f
 background lonely planet 2 dx basso #0d2481
+
+!!!PROMEMORIA DEL PADDING!!!
+/* top | right | bottom | left */
+
+
 */
 
 /* Da mettere sempre  */
@@ -45,6 +50,8 @@ h1 {
 }
 
 
+
+
 /* Comune a tutti */
 
 [class^="container-"] {
@@ -59,14 +66,13 @@ h1 {
 /* inizia codice css per header */
 
 header {
-    background: url() center center;
     background-color: #b4d0e7;
-    /* height: 700px; */
-    background-size: cover;
+    height: 70%;
+    font-size: 20px;
 }
 
 .header {
-    padding: 100px 0 0 100px; /* top | right | bottom | left */
+    padding: 100px 0 0 100px; 
 }
 
 /* codice per la nav */
@@ -76,7 +82,6 @@ header {
     background-color: white;
     height: 100px; 
     line-height: 100px;
-    padding-right: 20px;
 
 }
 
@@ -87,18 +92,30 @@ nav.topbar .logo {
 }
 
 nav.topbar .menu {
-    width: 50%;
-    height: 100%;
+    /* width: 40%;
+    height: 100%; */
+    padding-left: 50px;
 }
 
 nav.topbar .menu li {
     display: inline-block;
-    margin-right: 20px;
+    padding-right: 30px;
+}
+
+nav.topbar .login {
+    padding-right: 10px;
+    text-align: left;
 }
 
 nav.topbar .login li {
     display: inline-block;
-    margin-right: 20px;
+    padding-right: 30px;
+}
+
+.start-blue {
+    padding: 3px 15px 3px 15px;
+    background-color: #0061ff;
+    color: white;
 }
 
 li {
@@ -123,7 +140,7 @@ img {
     font-weight: 700;
 }
 /* da cancellare appena finito completa sezione */
-.content-1 {
+.content-1, .content-footer-1 {
     background-color: green;
     height: 700px;
 }
@@ -139,22 +156,22 @@ table, tr, td {
     border: 3px solid black;
 }
 
-.content-2 {
+.content-2, .content-footer-2 {
     background-color: red;
     height: 300px;
 }
 
-.content-3 {
+.content-3, .content-footer-3 {
     background-color: pink;
     height: 500px;
 }
 
-.content-4 {
+.content-4, .content-footer-4 {
     background-color: blue;
     height: 1400px;
 }
 
-.content-5 {
+.content-5, {
     background-color: teal;
     height: 200px;
 }
