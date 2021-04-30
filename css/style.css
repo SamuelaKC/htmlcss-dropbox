@@ -53,6 +53,19 @@ h2 {
 }
 
 
+h4 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+
 
 /* Comune a tutti */
 
@@ -135,6 +148,13 @@ nav.topbar .login li {
     padding: 10px 20px 10px 20px;
 }
 
+.start-blue-column {
+    margin-top: 30px;
+    padding: 10px 20px 10px 20px;
+    background-color: #0061ff;
+
+}
+
 div.arrow:after {
     content: '\2193';
     font-size: 60px;
@@ -183,10 +203,42 @@ img {
 
 .select {
     margin-left: 20px;
+    margin-bottom: 50px;
 }
 
 input .select-1 {
     display: inline-block;
+}
+
+[class^="columns-"] {
+    width: calc(100% / 3);
+    padding: 10px;
+}
+
+.table, .th, .td {
+border: 1px solid rgba(0, 0, 0, .5);    
+}
+
+.th {
+    padding: 5px;
+    text-align: center;
+}
+
+.td {
+    padding: 20px;
+}
+
+p {
+    padding-top: 30px;
+}
+
+.month {
+    font-size: 14px;
+    color: #99a4ad;
+}
+
+.icon-single, .icon-folder, .icon-pencil {
+    margin-right: 10px;
 }
 
 
@@ -196,16 +248,6 @@ input .select-1 {
     height: 700px; */
 }
 
-[class^="columns-"] {
-    background-color: tomato;
-    width: 30%;
-    margin: 20px;
-    padding: 10px;
-}
-
-table, tr, td {
-    border: 3px solid black;
-}
 
 .content-2, .content-footer-2 {
     background-color: red;
