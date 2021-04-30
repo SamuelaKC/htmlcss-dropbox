@@ -75,9 +75,13 @@ a {
 [class^="container-body-"] {
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 30px;
     height: 100%;
     padding-bottom: 50px;
+}
+
+.container-body-1 {
+    margin-top: 150px;
 }
 
 [class^="container-footer-"] {
@@ -93,7 +97,6 @@ header {
     height: 840px; /* da sistemare perchè non mi sembra corretta come soluzione */
     font-size: 20px;
     font-weight: 500;
-    
 }
 
 .header {
@@ -174,9 +177,13 @@ li {
 
 /* inizio parte scritta più immagine di header */
 
-.text-1 {
+[class^="text-"] {
     width: 40%;
 }
+
+/* .text-1 {
+    width: 40%;
+} */
 
 .text-header {
     width: 70%;
@@ -193,9 +200,13 @@ div.start-blue {
     border-top: 30px;
 }
 
-.image-1 {
+[class^="image-"] {
     width: 60%;
 }
+
+/* .image-1 {
+    width: 60%;
+} */
 
 img {
     width: 100%;
@@ -222,22 +233,37 @@ input .select-1 {
     padding: 10px;
 }
 
-.table, .th {
+.table, .thead, .table-1 {
 border: 1px solid rgba(0, 0, 0, .5);    
+}
+
+.table {
+    height: 850px;
 }
 
 .th {
     padding: 5px;
     text-align: center;
     font-weight: 700;
+
 }
 
-.td {
-    padding: 0 30px 0 30px;
+[class^="td-"], .td {
+        padding: 0 30px 0 30px;
+        margin-top: 20px;
+}
+
+
+.td-1 {
+        height: 100px;
+}
+
+.td-2 {
+height: 200px;
 }
 
 p {
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 hr {
@@ -251,7 +277,10 @@ hr {
 }
 
 .icon-single, .icon-folder, .icon-pencil, .icon-team {
-    margin-right: 10px;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
 }
 
 .check-v {
@@ -260,20 +289,35 @@ hr {
     font-weight: 700;
 }
 
+/* inizio sezione 2 */
+
+.table-1 {
+    height: 200px;
+}
+
+/* inizio sezione 3 */
+
+
+.text-content-3 {
+    padding: 50px 0 0 50px;
+}
+
 
 /* da cancellare appena finito completa sezione */
-.content-1, .content-footer-1 {
-    /* background-color: green;
-    height: 700px; */
+
+
+.content-footer-1 {
+    background-color: green;
+    height: 700px;
 }
 
 
-.content-2, .content-footer-2 {
-    /* background-color: red;
-    height: 300px; */
+ .content-footer-2 {
+    background-color: red;
+    height: 300px;
 }
 
-.content-3, .content-footer-3 {
+.content-footer-3 {
     background-color: pink;
     height: 500px;
 }
