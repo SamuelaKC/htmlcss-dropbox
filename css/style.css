@@ -56,12 +56,17 @@ h2 {
 
 /* Comune a tutti */
 
-[class^="container-"] {
+[class^="container-body-"] {
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 200px;
     height: 100%;
     padding-bottom: 50px;
+}
+
+[class^="container-footer-"] {
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 
@@ -232,6 +237,7 @@ footer {
 .content-footer-1 {
     display: table;
     width: 100%;
+    height: 300px;
 }
 
 .content-footer-body {
