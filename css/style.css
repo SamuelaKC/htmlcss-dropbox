@@ -15,7 +15,7 @@ background world bycicle 2 dx alto #d5001f
 background lonely planet 2 dx basso #0d2481
 
 !!!PROMEMORIA DEL PADDING!!!
-/* top | right | bottom | left */
+top | right | bottom | left  */
 
 
 /* Da mettere sempre  */
@@ -47,11 +47,14 @@ h1 {
     font-weight: 700;
 }
 
-h2 {
+h2, .h2 {
     font-size: 40px;
     font-weight: 700;
 }
 
+.h2 {
+    color:#61082b;
+}
 
 h4, .h4 {
     font-size: 30px;
@@ -177,13 +180,9 @@ li {
 
 /* inizio parte scritta più immagine di header */
 
-[class^="text-"] {
+[class^="text-header-"] {
     width: 40%;
 }
-
-/* .text-1 {
-    width: 40%;
-} */
 
 .text-header {
     width: 70%;
@@ -203,10 +202,6 @@ div.start-blue {
 [class^="image-"] {
     width: 60%;
 }
-
-/* .image-1 {
-    width: 60%;
-} */
 
 img {
     width: 100%;
@@ -323,77 +318,130 @@ hr {
 /* inizio footer sezione 1 */
 
 
-.content-footer-body {
-    /* width: calc(100% / 5); */
-}
-
-[class^="item-"] {
-    width: 300px;
-    height: 300px;
+[class^="item-row-"] {
+    width:  calc((100% / 2) - 0.1px);
+    display: block;
     text-align: center;
+    height: 300px;
     line-height: 300px;
     }
-[class^="item-"] img {
+
+[class^="item-row-"] img {
     width: 50%;
 }
 
-
-.item-1 {
-    background-color: #a2d39b;
+.logo-adv img{
+    width: 20%;
 }
 
-.item-2 {
+[class^="content-footer-row-"] {
+    width:  calc((100% / 3) - 0.1px);
+}
+
+.content-footer-row-2 {
+    height: 600px;
+}
+
+[class^="item-row-"]:hover {
+box-shadow: inset 20em 1em rgba(255, 255, 255, .5);
+}
+
+.item-row-1 {
+    background-color: #a2d39b;
+    background-image: url(./img/designit.svg);
+}
+
+.item-row-2 {
     background-color: #61082b;
 }
+
 .item-3 {
     background-color: #f5f5f5;
-    width: 600px;
+    width:  100%;
+    padding: 100px;
+    margin: 0 auto;
     height: 600px;
-    line-height: 600px;
-
 }
-.item-4 {
+
+.text-adv {
+    padding: 100px 0 0 0;
+    margin: 0 auto;
+}
+
+.item-row-4 {
     background-color: #d5001f;
 }
-.item-5 {
+.item-row-5 {
     background-color: #b4d0e7;
 }
-.item-6 {
+.item-row-6 {
     background-color: #0093ce;
 }
-.item-7 {
+.item-row-7 {
     background-color: #ff1c1c;
 }
-.item-8 {
+.item-row-8 {
     background-color: #0d2481;
 }
-.item-9 {
+.item-row-9 {
     background-color: #ffd830;
 }
 
+/* inzio sezione footer 2 */
 
-
-/* da cancellare appena finito completa sezione */
-
-
- .content-footer-2 {
-    background-color: red;
+.content-footer-2 {
+    background-color: #b4d0e7;
     height: 300px;
 }
 
-.content-footer-3 {
-    background-color: pink;
-    height: 500px;
+.start-gray-footer-1{
+    display: inline;
+    background-color: #f5f5f5;
+    display: inline;
+    padding: 10px 20px 10px 20px;
 }
+
+.content-footer {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0 75px 0;
+}
+
+.h2, .start-gray-footer {
+    width: 50%;
+}
+
+/* inizio sezione footer 3 */
+
+.question li {
+    line-height: 50px;
+    padding-bottom: 25px 0 25px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);    
+}
+
+.arrow-down img {
+    width: 15px;
+}
+
+.arrow-down {
+    padding: 0 0 0 500px;
+
+}
+
+/* inizio sezione footer 4 */
 
 .content-footer-4 {
-    background-color: blue;
-    height: 1400px;
+    background-color: black;
+    color: white;
+    height: 600px;
 }
 
- /* inzio del footer  */
 
-/* footer {
-    background-color: yellow;
-    height: 700px;
-} */
+[class^="art-footer-"] {
+    width: calc(100% / 5);
+    
+}
+
+.world {
+    width: 10%;
+}
