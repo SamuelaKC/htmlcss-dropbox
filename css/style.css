@@ -79,7 +79,6 @@ a {
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 30px;
-    height: 100%;
     padding-bottom: 50px;
 }
 
@@ -151,7 +150,6 @@ nav.topbar .login li {
     padding: 3px 15px 3px 15px;
 }
 
-
 .start-blue-header {
     display: inline;
     padding: 10px 20px 10px 20px;
@@ -210,7 +208,7 @@ img {
 /* inizio sezione 1 */
 
 .title {
-    text-align: center;
+    text-align: left;
     padding-bottom: 50px;
 }
 
@@ -225,36 +223,28 @@ input .select-1 {
 
 [class^="columns-"] {
     width: calc(100% / 3);
-    padding: 10px;
+    padding: 30px;
 }
 
-.table, .thead, .table-1 {
+.table, .table-1 {
 border: 1px solid rgba(0, 0, 0, .5);    
 }
 
 .table {
-    height: 850px;
+    height: 950px;
 }
 
 .th {
-    padding: 5px;
+    padding: 15px;
     text-align: center;
     font-weight: 700;
-
+    border-bottom: 1px solid rgba(0, 0, 0, .5);  
 }
 
 [class^="td-"], .td {
-        padding: 0 30px 0 30px;
-        margin-top: 20px;
-}
-
-
-.td-1 {
-        height: 100px;
-}
-
-.td-2 {
-height: 200px;
+    padding: 10px;
+    margin: 15px;
+    height: 150px;
 }
 
 p {
@@ -287,31 +277,43 @@ hr {
 /* inizio sezione 2 */
 
 .table-1 {
-    height: 200px;
+    height: 250px;
 }
 
 /* inizio sezione 3 */
-
 
 .text-content-3 {
     padding: 50px 0 0 50px;
 }
 
+.start-white-column {
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid black;
+    width: 200px;
+}
+
 /* inizio sezione 4 */
 
-[class^="article-"] {
-    width: calc(100% / 3);
-    padding: 10px;
+.article {
+    position: relative;
+    width:  calc((100% / 3) - 30px);
+    margin: 15px;
 }
 
 .image4 {
-    width: 60%;
+    width: 50%;
 }
 
+.text-content-4 {
+    padding: 10px 10px 10px 10px
+}
+
+
 /* inizio sezione 5 */
-.title {
+.title-1 {
     text-align: left;
-    width: 50%;
 }
 
 
@@ -324,10 +326,12 @@ hr {
     text-align: center;
     height: 300px;
     line-height: 300px;
-    }
+}
 
 [class^="item-row-"] img {
     width: 50%;
+    filter: invert(1);
+    vertical-align: middle;
 }
 
 .logo-adv img{
@@ -348,7 +352,6 @@ box-shadow: inset 20em 1em rgba(255, 255, 255, .5);
 
 .item-row-1 {
     background-color: #a2d39b;
-    background-image: url(./img/designit.svg);
 }
 
 .item-row-2 {
@@ -392,6 +395,10 @@ box-shadow: inset 20em 1em rgba(255, 255, 255, .5);
 .content-footer-2 {
     background-color: #b4d0e7;
     height: 300px;
+}
+
+.start-gray-footer{
+    padding: 25px 0  0 250px;
 }
 
 .start-gray-footer-1{
