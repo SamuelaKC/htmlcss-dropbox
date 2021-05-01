@@ -25,6 +25,7 @@ top | right | bottom | left  */
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 .clearfix::after {
@@ -190,7 +191,6 @@ li {
 .text-header-1 {
     margin-top: 20px;
     margin-bottom: 40px;
-    font-size: 14px;
 }
 
 div.start-blue {
@@ -297,23 +297,32 @@ hr {
 /* inizio sezione 4 */
 
 .article {
-    position: relative;
-    width:  calc((100% / 3) - 30px);
-    margin: 15px;
+    width:  calc((100% / 3) - 0.1px);
+    padding: 0 20px 0 20px;
+    margin: 50px 0 100px 0;
+    height: 400px;
 }
 
 .image4 {
-    width: 50%;
+    width: 100%;
+    text-align: center;
 }
 
-.text-content-4 {
-    padding: 10px 10px 10px 10px
+.underline {
+    text-decoration: underline ;
 }
 
+.bold {
+ text-weigh: 700;
+}
 
 /* inizio sezione 5 */
 .title-1 {
     text-align: left;
+}
+
+.content-5 {
+    width: 50%;
 }
 
 
@@ -347,7 +356,7 @@ hr {
 }
 
 [class^="item-row-"]:hover {
-box-shadow: inset 20em 1em rgba(255, 255, 255, .5);
+    box-shadow: inset 20em 1em rgba(255, 255, 255, .5);
 }
 
 .item-row-1 {
@@ -420,19 +429,22 @@ box-shadow: inset 20em 1em rgba(255, 255, 255, .5);
 
 /* inizio sezione footer 3 */
 
-.question li {
-    line-height: 50px;
-    padding-bottom: 25px 0 25px 0;
+.question {
+    padding: 25px 0 25px 0;
     border-bottom: 1px solid rgba(0, 0, 0, .5);    
+}
+
+.question-1 {
+    width: 50%;
+}
+
+.arrow-down {
+    width: 50%;
+    text-align: right;
 }
 
 .arrow-down img {
     width: 15px;
-}
-
-.arrow-down {
-    padding: 0 0 0 500px;
-
 }
 
 /* inizio sezione footer 4 */
@@ -441,14 +453,33 @@ box-shadow: inset 20em 1em rgba(255, 255, 255, .5);
     background-color: black;
     color: white;
     height: 600px;
+    line-height: 28px;
 }
 
 
 [class^="art-footer-"] {
     width: calc(100% / 5);
+    height: 250px;
     
 }
 
+.content-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.content-footer a:hover {
+    text-decoration: underline;
+}
+
 .world {
-    width: 10%;
+    padding: 50px 0 0 0;
+    color: gray;
+    font-weight: 700;
+}
+.world img {
+    width: 40px;
+    vertical-align: middle;
+    display: inline-block;
+    padding-right: 10px ;
 }
