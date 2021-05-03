@@ -345,7 +345,6 @@ hr {
 
 /* inizio footer sezione 1 */
 
-
 [class^="item-row-"] {
     width:  calc((100% / 2) - 0.1px);
     display: block;
@@ -354,13 +353,15 @@ hr {
     line-height: 300px;
 }
 
+/* Era meglio usare fill su svg e non invert  */
+
 [class^="item-row-"] img {
     width: 50%;
     filter: invert(1);
     vertical-align: middle;
 }
 
-.logo-adv img{
+.logo-adv img {
     width: 20%;
 }
 
